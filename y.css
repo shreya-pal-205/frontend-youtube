@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.top-container{
+    height: 90px;
+    width: 100%;
+    background-color: #201f1fee;
+}
+.top-content{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+input{
+    width: 500px;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+i{
+    color: rgba(255, 255, 255, 0.504);
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+.fa-youtube{
+    color: red;
+    font-size: 1.7rem;
+    margin-left: -8px;
+}
+.youtube{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.fa-bars{
+    font-size: 1.7rem;
+}
+
+
+
+
+.container{
+    display: flex;
+}
+.sidebar-container{
+    width: 300px;
+    height: 100vh;
+    background-color: #201f1fee;
+    overflow: auto;
+    color: rgba(255, 255, 255, 0.504);
+}
+.sidebar-content{
+    padding-bottom: 8rem;
+}
+.name{
+    margin: 2rem;
+}
+.main-container{
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+.section-container{
+    margin-top: 1rem;
+}
+.section-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-name{
+    font-size: 1.25rem;
+    background-color:rgb(69, 66, 66,0.3);
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    border-radius: 2rem;
+}
+.video-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+img{
+    width: 250px;
+    border-radius: 1rem;
+}
+.video-container{
+    margin-left: 2rem;
+}
+.write{
+    margin-top: 1rem;
+    display: flex;
+}
+.video{
+    margin-top: 2rem;
+}
+.right{
+    margin-left: 1rem;
+}
+.pp{
+    color: rgba(255, 255, 255, 0.305);
+}
